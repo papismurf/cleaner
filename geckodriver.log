@@ -78,74 +78,114 @@ l/a.xa.sode.prototype.zaxs@https://z.moatads.com/ptarmiganmediadcm677757797954/m
 
 JavaScript error: https://fw.adsafeprotected.com/rjss/www.googletagservices.com/332285/39146546/dcm/dcmads.js, line 957: NS_ERROR_NOT_INITIALIZED: 
 JavaScript error: https://cdn.doubleverify.com/dv-measurements299.js, line 69: TypeError: k.c.L(...) is undefined
-1575379030719	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dbpython\\AppData\\Local\\Temp\\rust_mozprofileTGnanb"
-1575379036523	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1575379036524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1575379036524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1575379036524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1575379049279	Marionette	INFO	Listening on port 60180
-1575379049421	Marionette	WARN	TLS certificate errors will be ignored for this session
-[Parent 6124, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 6236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[GFX1-]: Killing GPU process due to IPC reply timeout
+[Parent 8444, Gecko_IOThread] WARNING: pipe error: 232: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 502
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Parent 8444, Main Thread] WARNING: base::KillProcess refusing to terminate process handle 0: file z:/task_1572401533/build/src/ipc/chromium/src/base/process_util_win.cc, line 395
 
-###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0015,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
 
 
-###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+###!!! [Child][MessageChannel] Error: (msgtype=0x9A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
 
 
-###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
 
 
-###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
 
 
-###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+###!!! [Child][MessageChannel] Error: (msgtype=0x9A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
 
 
-###!!! [Parent][MessageChannel] Error: (msgtype=0x570014,name=PHttpChannel::Msg_OnStartRequest) Channel error: cannot send/recv
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
 
 
-###!!! [Parent][MessageChannel] Error: (msgtype=0x570014,name=PHttpChannel::Msg_OnStartRequest) Channel error: cannot send/recv
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
 
-JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1845: TypeError: subject.QueryInterface is not a function
-JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1845: TypeError: subject.QueryInterface is not a function
-JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1845: TypeError: subject.QueryInterface is not a function
-A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
 
-###!!! [Parent][MessageChannel] Error: (msgtype=0x570014,name=PHttpChannel::Msg_OnStartRequest) Channel error: cannot send/recv
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
 
-JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1845: TypeError: subject.QueryInterface is not a function
-A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
-[Parent 6124, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 6844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 6844, Chrome_Chilconsole.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
-1575397625589	Marionette	INFO	Stopped listening on port 60180
 
-###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x590005,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
 
-ko_IOThread] WARNING: file z:/task_1572401533/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
-1575397527070	Marionette	INFO	Listening on port 49915
-1575397527309	Marionette	WARN	TLS certificate errors will be ignored for this session
-[Child 5784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc[Child 1_chan1576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341nel_win.c
-c, line 341[Child 11576, 
-[Child 5784, Cconsole.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
-[Child 7988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 7988, Chrom1575397620440	Marionette	INFO	Stopped listening on port 49915
 
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
 
-[GPU 4580, Chrome_C1575397768675	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dbpython\\AppData\\Local\\Temp\\rust_mozprofiletEz4B2"
-1575397783573	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1575397783573	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1575397783574	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1575397783574	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1575397791404	Marionette	INFO	Listening on port 50351
-1575397791621	Marionette	WARN	TLS certificate errors will be ignored for this session
-[Parent 12200, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 5688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x9A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C001E,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xD,name=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x9A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0015,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C001E,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0015,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x9A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C001E,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+[GFX1-]: Failed to connect GPU process
+[GFX1-]: Compositors might be mixed (3,1)
+[Child 4960, ImageBridgeChild] WARNING: failed to create pipe: 2: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 227
+[Child 4652, ImageBridgeChild] WARNING: failed to create pipe: 2: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 227
+[Child 7332, ImageBridgeChild] WARNING: failed to create pipe: 2: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 227
+[Child 6060, ImageBridgeChild] WARNING: failed to create pipe: 2: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 227
+[Child 4628, ImageBridgeChild] WARNING: failed to create pipe: 2: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 227
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Parent 8444, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 8444, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+hild 5688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
 [Child [Parent 12200, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
 [Child 8904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
 [Child 8904, Chrome_ChildTh[Parent 12200, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
@@ -164,22 +204,18 @@ console.error: "Could not write session state file " (new Error("_initWorker cal
 1575398060770	Marionette	INFO	Listening on port 50758
 1575398061131	Marionette	WARN	TLS certificate errors will be ignored for this session
 [Parent 6192, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-1575407250670	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dbpython\\AppData\\Local\\Temp\\rust_mozprofileqR5Q5h"
-1575407273953	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1575407273953	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1575407273954	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1575407273954	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-[Parent 12020, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 7068, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Parent 12020, Gecko_IOThread] WARNING: file z:/task_1572401533/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
-1575407308302	Marionette	INFO	Listening on port 52392
-1575407308714	Marionette	WARN	TLS certificate errors will be ignored for this session
-[Child 4216, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 4216, Chrome_[Child 5812, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 11820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Ch1575407625232	Marionette	INFO	Stopped listening on port 52392
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-[GPU 6824, Chrome_C
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 314: TypeError: state is undefined
+JavaScript error: , line 0: NS_ERROR_UNEXPECTED: 
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 314: TypeError: state is undefined
+JavaScript error: , line 0: NS_ERROR_UNEXPECTED: 
+[Parent 6192, Gecko_IOThread] WARNING: pipe error: 232: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 502
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1845: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1845: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1845: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1845: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+[Parent 6192, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"z:/task_1572401533/build/src/toolkit/components/places/Database.cpp","lineNumber":496,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1913","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PlacesUtils.jsm:getFolderContents:1292","resource:///modules/BrowserGlue.jsm:getToolbarFolderCount:2703","resource:///modules/BrowserGlue.jsm:_maybeToggleBookmarkToolbarVisibility:2713","resource:///modules/BrowserGlue.jsm:BG__migrateUI:2754","resource:///modules/BrowserGlue.jsm:BG__beforeUIStartup:1206","resource:///modules/BrowserGlue.jsm:BG_observe:858"]}] Barrier: profile-before-change
+1575447201358	Marionette	INFO	Stopped listening on port 50758
